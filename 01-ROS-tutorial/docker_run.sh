@@ -30,13 +30,13 @@ docker run -it \
     -e QT_X11_NO_MITSHM=1 \
     -e XAUTHORITY=$XAUTH \
     -v "$XAUTH:$XAUTH" \
-    -v "/home/$USER/ctsphub-workshop-2020:/home/hcc2020/HCC-Lab-2020" \
+    -v "/home/$USER/ctsphub-workshop-2020:/home/ctsp20202020/ctsphub-workshop-2020" \
     -v "/tmp/.X11-unix:/tmp/.X11-unix" \
     -v "/etc/localtime:/etc/localtime:ro" \
     -v "/dev:/dev" \
     -v "/var/run/docker.sock:/var/run/docker.sock" \
-    -v "/home/$USER/.bashrc:/home/hcc2020/.bashrc" \
-    --name hcc2020 \
+    -v "/home/$USER/.bashrc:/home/ctsp2020/.bashrc" \
+    --name ctsp2020 \
     --network host \
     --rm \
     --privileged \
