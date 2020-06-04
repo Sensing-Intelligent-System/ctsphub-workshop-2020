@@ -1,0 +1,2 @@
+me212cv:realsense-ros/realsense2_camera:realsense-ros/realsense2_description
+-DCATKIN_DEVEL_PREFIX=/home/arg/ctsphub-workshop-2020/02-camera-pcl/01-depth-camera/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/arg/ctsphub-workshop-2020/02-camera-pcl/01-depth-camera/catkin_ws/install -G Unix Makefiles

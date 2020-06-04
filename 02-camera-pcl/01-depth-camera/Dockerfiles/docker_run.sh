@@ -1,0 +1,1 @@
+docker run -it --rm --name camera --net host -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix --privileged -v /home/arg/ctsphub-workshop-2020:/home/arg/ctsphub-workshop-2020 -w  /home/arg/ctsphub-workshop-2020/02-camera-pcl/01-depth-camera/catkin_ws camera bash
