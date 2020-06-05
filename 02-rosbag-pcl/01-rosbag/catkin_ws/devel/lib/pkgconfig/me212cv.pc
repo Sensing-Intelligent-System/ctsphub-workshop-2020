@@ -1,0 +1,8 @@
+prefix=/home/hcc2020/ctsphub-workshop-2020/02-rosbag-pcl/01-rosbag/catkin_ws/devel
+
+Name: me212cv
+Description: Description of me212cv
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
