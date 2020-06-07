@@ -1,0 +1,8 @@
+prefix=/home/ray/ctsphub-workshop-2020/03-tf-camera-calibration/catkin_ws/devel
+
+Name: usb_cam
+Description: Description of usb_cam
+Version: 0.3.6
+Cflags: -I/home/ray/ctsphub-workshop-2020/03-tf-camera-calibration/catkin_ws/src/usb_cam/include
+Libs: -L${prefix}/lib -lusb_cam
+Requires: 
