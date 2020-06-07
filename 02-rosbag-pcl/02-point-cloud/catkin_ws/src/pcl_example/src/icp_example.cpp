@@ -165,9 +165,10 @@ int main(int argc, char** argv)
   printf("Load model\n");
   pcl::io::loadPLYFile<pcl::PointXYZRGB>(model_path, *model);
   printf("Finish Load model\n");
-  pcl::PolygonMesh mesh;
-  pcl::io::loadPLYFile(cloud_path, mesh);
-  pcl::fromPCLPointCloud2( mesh.cloud, *cloud );
+//  pcl::PolygonMesh mesh;
+//  pcl::io::loadPLYFile(cloud_path, mesh);
+  pcl::io::loadPLYFile<pcl::PointXYZRGB>(cloud_path, *cloud);
+//  pcl::fromPCLPointCloud2( mesh.cloud, *cloud );
   printf("Finish Load model\n");
   model ->header.frame_id = "/map";
   cloud ->header.frame_id = "/map";
