@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ray/ctsphub-workshop-2020/03-tf-camera-calibration/catkin_ws/devel/setup.sh

@@ -1,0 +1,2 @@
+apriltags_ros/apriltags:apriltags_ros/apriltags_ros:sensor:tutorial:usb_cam
+-DCATKIN_DEVEL_PREFIX=/home/ray/ctsphub-workshop-2020/03-tf-camera-calibration/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ray/ctsphub-workshop-2020/03-tf-camera-calibration/catkin_ws/install -G Unix Makefiles
