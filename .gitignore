@@ -3,3 +3,15 @@ devel
 build
 *.swp
 *.swo
+CMakeLists.txt.user
+.idea/
+05-locobot-navigation/catkin_ws/src/orb_slam_2_ros/cmake-build-debug
+05-locobot-navigation/catkin_ws/src/orb_slam_2_ros/KeyFrameTrajectory.txt
+05-locobot-navigation/catkin_ws/src/orb_slam_2_ros/Thirdparty/DBoW2/build/
+05-locobot-navigation/catkin_ws/src/orb_slam_2_ros/Thirdparty/DBoW2/lib/
+05-locobot-navigation/catkin_ws/src/orb_slam_2_ros/Thirdparty/g2o/build/
+05-locobot-navigation/catkin_ws/src/orb_slam_2_ros/Thirdparty/g2o/config.h
+05-locobot-navigation/catkin_ws/src/orb_slam_2_ros/Thirdparty/g2o/lib/
+05-locobot-navigation/catkin_ws/src/orb_slam_2_ros/Vocabulary/ORBvoc.txt
+05-locobot-navigation/catkin_ws/src/orb_slam_2_ros/build/
+05-locobot-navigation/catkin_ws/src/orb_slam_2_ros/lib/
