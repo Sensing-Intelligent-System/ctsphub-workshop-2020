@@ -3,7 +3,7 @@
 ETH0_IP=$(ip addr show eth0 | grep "inet\b" | awk '{print $2}' | cut -d/ -f1)
 WLAN0_IP=$(ip addr show wlan0 | grep "inet\b" | awk '{print $2}' | cut -d/ -f1)
 
-source ~/ctsphub-workshop-2020/environment.sh
+source ~/ctsphub-workshop-2020/05-locobot-navigation/environment.sh
 export ROS_IP=10.42.0.1
 
 roslaunch teleop_twist_joy teleop.launch eth0:=$ETH0_IP wlan0:=$WLAN0_IP
