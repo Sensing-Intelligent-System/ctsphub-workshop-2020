@@ -44,7 +44,7 @@ docker run -it \
   -e QT_X11_NO_MITSHM=1 \
   -e XAUTHORITY=$XAUTH \
   -v "$XAUTH:$XAUTH" \
-  -v "/home/$USER/sis_lab_all_2020:/home/sis_2020/sis_lab_all_2020" \
+  -v "/home/$USER/ctsphub-workshop-2020:/home/sis_2020/ctsphub-workshop-2020" \
   -v "/tmp/.X11-unix:/tmp/.X11-unix" \
   -v "/etc/localtime:/etc/localtime:ro" \
   -v "/dev:/dev" \
